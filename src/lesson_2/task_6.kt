@@ -1,3 +1,5 @@
+package lesson_2
+
 fun main(){
     print("heightlnCm : ")
     val heightln = readln().toDoubleOrNull()?:0.0
