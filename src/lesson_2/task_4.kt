@@ -1,3 +1,5 @@
+package lesson_2
+
 fun main(){
     print("width : ")
     val width = readln().toDoubleOrNull()?:0.0

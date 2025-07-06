@@ -1,3 +1,5 @@
+package lesson_2
+
 fun main(){
     print("firstName : ")
     val firstName = readln()
