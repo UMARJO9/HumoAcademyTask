@@ -5,7 +5,7 @@ fun main() {
     val number1 = readln().toIntOrNull() ?: 0
     print("Раками 2 : ")
     val number2 = readln().toIntOrNull() ?: 0
-    val result: Unit = when {
+    when {
         (number1 > number2) -> println("Раками 1 : $number1")
         else -> println("Раками 2 : $number2")
     }

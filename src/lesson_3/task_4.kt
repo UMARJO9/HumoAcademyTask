@@ -3,7 +3,7 @@ package lesson_3
 fun main(){
     print("Раками рузи хафта :")
     val numberOfWeek = readln().toIntOrNull()?:0
-    val result : Unit = when(numberOfWeek){
+    when(numberOfWeek){
         1->println("Душанбе")
         2->println("Сешанбе")
         3->println("Чоршанбе")
