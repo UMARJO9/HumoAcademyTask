@@ -1,0 +1,6 @@
+package lesson_4
+
+fun main(){
+    val numberArray = intArrayOf(1,2,3,4,5,6,7,8,9,10)
+    for (i in numberArray) if (i % 2 == 0) println(i)
+}
